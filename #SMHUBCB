@@ -1,11 +1,11 @@
 -- filename: 
 -- version: lua51
 -- line: [0, 0] id: 1
-local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/UI/moddedlinora.lua"))
+local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/unleaked"))
 r0_1 = r0_1()
-local r1_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/UI/addons/ConfigManager.lua"))
+local r1_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/UI/addons/ConfigManager.lua"))
 r1_1 = r1_1()
-local r2_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/modules/loadcustomassetmodule.lua"))
+local r2_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/modules/loadcustomassetmodule.lua"))
 r2_1()
 r0_1:Notify("Loading solaris.lol", 1)
 r2_1 = game:GetService("Players")
@@ -19,7 +19,7 @@ if not Drawing.new then
   local r12_1 = identifyexecutor()
   if r12_1 == "Synapse Z" then
   end
-  r12_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/modules/fakedrawinglib.lua"))
+  r12_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/modules/fakedrawinglib.lua"))
   r12_1()
 end
 r12_1 = r0_1:CreateWindow({Title = "solaris.lol", AutoShow = true, TabPadding = 4})
