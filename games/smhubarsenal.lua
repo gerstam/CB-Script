@@ -1,7 +1,7 @@
 -- filename: 
 -- version: lua51
 -- line: [0, 0] id: 1
-local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/unleaked"))
+local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))
 r0_1 = r0_1()
 r0_1.title = "Solaris"
 local r1_1 = r0_1:InitNotifications()
