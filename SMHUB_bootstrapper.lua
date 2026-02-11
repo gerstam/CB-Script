@@ -14,29 +14,29 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
 
 if game.PlaceId == 286090429 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/%23SMHUBARSENAL",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubarsenal.lua",true))()
 elseif game.PlaceId == 301549746 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/%23SMHUBCB",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubcb.lua",true))()
 elseif game.PlaceId == 1480424328 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/%23SMHUBCB",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubcb.lua",true))()
 elseif game.PlaceId == 1869597719 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/%23SMHUBCB",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubcb.lua",true))()
 elseif game.PlaceId == 16281300371 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 14915220621 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 15144787112 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 16581648071 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 15517169103 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 15131065025 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 16331600459 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 elseif game.PlaceId == 13772394625 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/games/smhubbb.lua",true))()
 else
     local notsupported = lib:InitNotifications():Notify("This game isn't supported for #SM HUB yet. If this game is popular please add in suggestions", 3, "information")
 end
