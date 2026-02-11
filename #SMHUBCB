@@ -1,13 +1,13 @@
 -- filename: 
 -- version: lua51
 -- line: [0, 0] id: 1
-local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/UI/moddedlinora.lua"))
+local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/stam/pissblox/main/UI/moddedlinora.lua"))
 r0_1 = r0_1()
-local r1_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/UI/addons/ConfigManager.lua"))
+local r1_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/stam/pissblox/main/UI/addons/ConfigManager.lua"))
 r1_1 = r1_1()
-local r2_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/modules/loadcustomassetmodule.lua"))
+local r2_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/stam/pissblox/main/modules/loadcustomassetmodule.lua"))
 r2_1()
-r0_1:Notify("Loading solaris.lol", 1)
+r0_1:Notify("Loading SMHUB", 1)
 r2_1 = game:GetService("Players")
 local r4_1 = game:GetService("RunService")
 local r6_1 = game:GetService("UserInputService")
@@ -19,10 +19,10 @@ if not Drawing.new then
   local r12_1 = identifyexecutor()
   if r12_1 == "Synapse Z" then
   end
-  r12_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/modules/fakedrawinglib.lua"))
+  r12_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/stam/pissblox/main/modules/fakedrawinglib.lua"))
   r12_1()
 end
-r12_1 = r0_1:CreateWindow({Title = "solaris.lol", AutoShow = true, TabPadding = 4})
+r12_1 = r0_1:CreateWindow({Title = "SMHUB", AutoShow = true, TabPadding = 4})
 local r13_1 = r12_1:AddTab("Home")
 local r14_1 = r12_1:AddTab("Combat")
 local r15_1 = r12_1:AddTab("Visual")
@@ -32,9 +32,9 @@ local r18_1 = r12_1:AddTab("Misc")
 local r19_1 = r12_1:AddTab("UI")
 local r20_1 = r12_1:AddTab("Configs")
 local r21_1 = r13_1:AddLeftGroupbox("Welcome")
-r21_1:AddLabel("Welome, thanks For Using solaris.lol, " .. r2_1.LocalPlayer.DisplayName .. ".", true)
+r21_1:AddLabel("Welome, thanks For Using SMHUB, " .. r2_1.LocalPlayer.DisplayName .. ".", true)
 local r22_1 = r13_1:AddRightGroupbox("Credits")
-r22_1:AddLabel("Toasty.dev: Owner + Head Developer")
+r22_1:AddLabel("stam: Owner + Head Developer")
 r22_1:AddLabel("Trax: Developer")
 r22_1:AddLabel("PawsThePaw: Debugger")
 local r23_1 = getgenv()
@@ -2773,7 +2773,7 @@ for r45_1, r46_1 in r42_1 do
                       local r69_1 = function(r0_33)
                         -- line: [0, 0] id: 33
                         if not r0_33 then
-                          upval_0:SetWatermark("solaris.lol | v1.0.0")
+                          upval_0:SetWatermark("SMHUB | v1.0.0")
                           upval_0:SetWatermarkVisibility(true)
                         end
                         upval_0:SetWatermarkVisibility(false)
@@ -2786,7 +2786,7 @@ for r45_1, r46_1 in r42_1 do
                         Callback = r69_1,
                       })
                       r1_1["SetLibrary"](r0_1)
-                      r1_1["SetFolder"]("solarislolcb")
+                      r1_1["SetFolder"]("smhubcb")
                       r1_1["BuildConfigSection"](r20_1)
                       r1_1["LoadAutoloadConfig"]()
                       r0_1:Notify("Finished Loading", 3)
