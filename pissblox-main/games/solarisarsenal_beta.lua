@@ -3,14 +3,14 @@
 -- line: [0, 0] id: 1
 local r0_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/unleaked"))
 r0_1 = r0_1()
-r0_1.title = "#SMHUB"
+r0_1.title = "#SM HUB"
 local r1_1 = r0_1:InitNotifications()
-local r2_1 = r1_1:Notify("Loading #SMHUB.", 3, "information")
+local r2_1 = r1_1:Notify("Loading #SM HUB.", 3, "information")
 task.wait(3)
 local r3_1 = r0_1:Init()
 local r4_1 = r3_1:NewTab("Home")
 local r5_1 = r4_1:NewSection("Introduction")
-local r6_1 = r4_1:NewLabel("Welome, thanks For Using #SMHUB, " .. game.Players.LocalPlayer.DisplayName, "left")
+local r6_1 = r4_1:NewLabel("Welome, thanks For Using #SM HUB, " .. game.Players.LocalPlayer.DisplayName, "left")
 local r7_1 = r4_1:NewSection("Credits")
 local r8_1 = r4_1:NewLabel("Toasty.dev: Owner + Head Developer", "left")
 local r9_1 = r4_1:NewLabel("PawsThePaw: Debugger", "left")
@@ -857,6 +857,6 @@ r87_1 = r85_1:NewButton("Clear Console", r90_1)
 task.wait(1)
 r88_1 = r0_1:CheckIfLoaded()
 if not r88_1 then
-  r88_1 = r1_1:Notify("Loaded #SMHUB", 4, "success")
+  r88_1 = r1_1:Notify("Loaded #SM HUB", 4, "success")
 end
 return

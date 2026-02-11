@@ -7,7 +7,7 @@ local r1_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/
 r1_1 = r1_1()
 local r2_1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/loadcustomassetmodule.lua"))
 r2_1()
-r0_1:Notify("Loading #SMHUB", 1)
+r0_1:Notify("Loading #SM HUB", 1)
 r2_1 = game:GetService("Players")
 local r4_1 = game:GetService("RunService")
 local r6_1 = game:GetService("UserInputService")
@@ -22,7 +22,7 @@ if not Drawing.new then
   r12_1 = loadstring(game:HttpGet("https://github.com/gerstam/CB-Script/blob/main/fakedrawinglib.lua"))
   r12_1()
 end
-r12_1 = r0_1:CreateWindow({Title = "#SMHUB", AutoShow = true, TabPadding = 4})
+r12_1 = r0_1:CreateWindow({Title = "#SM HUB", AutoShow = true, TabPadding = 4})
 local r13_1 = r12_1:AddTab("Home")
 local r14_1 = r12_1:AddTab("Combat")
 local r15_1 = r12_1:AddTab("Visual")
@@ -32,7 +32,7 @@ local r18_1 = r12_1:AddTab("Misc")
 local r19_1 = r12_1:AddTab("UI")
 local r20_1 = r12_1:AddTab("Configs")
 local r21_1 = r13_1:AddLeftGroupbox("Welcome")
-r21_1:AddLabel("Welome, thanks For Using #SMHUB, " .. r2_1.LocalPlayer.DisplayName .. ".", true)
+r21_1:AddLabel("Welome, thanks For Using #SM HUB, " .. r2_1.LocalPlayer.DisplayName .. ".", true)
 local r22_1 = r13_1:AddRightGroupbox("Credits")
 r22_1:AddLabel("Toasty.dev: Owner + Head Developer")
 r22_1:AddLabel("Trax: Developer")
@@ -2773,7 +2773,7 @@ for r45_1, r46_1 in r42_1 do
                       local r69_1 = function(r0_33)
                         -- line: [0, 0] id: 33
                         if not r0_33 then
-                          upval_0:SetWatermark("#SMHUB | v1.0.0")
+                          upval_0:SetWatermark("#SM HUB | v1.0.0")
                           upval_0:SetWatermarkVisibility(true)
                         end
                         upval_0:SetWatermarkVisibility(false)
@@ -2786,7 +2786,7 @@ for r45_1, r46_1 in r42_1 do
                         Callback = r69_1,
                       })
                       r1_1["SetLibrary"](r0_1)
-                      r1_1["SetFolder"]("#SMHUBcb")
+                      r1_1["SetFolder"]("#SM HUBcb")
                       r1_1["BuildConfigSection"](r20_1)
                       r1_1["LoadAutoloadConfig"]()
                       r0_1:Notify("Finished Loading", 3)

@@ -4,13 +4,13 @@ assert(getgenv, "getgenv must be available")
 assert(getfenv, "getfenv must be available")
 assert(loadstring, "loadstring must be available")
 
--- Load the external #SMHUB UI Library
+-- Load the external #SM HUB UI Library
 local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/UILibrary/SolarisLib.lua"))()
 
 -- Create a window
 local win = SolarisLib:New({
-    Name = "#SMHUB Base",
-    FolderToSave = "#SMHUBStuff"
+    Name = "#SM HUB Base",
+    FolderToSave = "#SM HUBStuff"
 })
 
 -- Create tabs and sections

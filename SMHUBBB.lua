@@ -6,8 +6,8 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredS
 
 -- Create the window
 local win = lib:New({
-    Name = "Solaris Base",
-    FolderToSave = "SolarisStuff"
+    Name = "#SM HUB Base",
+    FolderToSave = "#SM HUBStuff"
 })
 
 -- Create a tab
@@ -18,7 +18,7 @@ local sec = tab:Section("Controls")
 
 -- Add buttons, toggles, sliders, etc.
 sec:Button("Say Hello", function()
-    print("Hello from SolarisBB!")
+    print("Hello from #SM HUB!")
 end)
 
 sec:Toggle("Auto Farm", false, function(enabled)

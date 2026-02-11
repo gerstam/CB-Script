@@ -38,5 +38,5 @@ elseif game.PlaceId == 16331600459 then
 elseif game.PlaceId == 13772394625 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
 else
-    local notsupported = lib:InitNotifications():Notify("This game isn't supported for #SMHUB yet. If this game is popular please add in suggestions", 3, "information")
+    local notsupported = lib:InitNotifications():Notify("This game isn't supported for #SM HUB yet. If this game is popular please add in suggestions", 3, "information")
 end
