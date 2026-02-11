@@ -7,11 +7,15 @@
     __\_\  \_\_\  \_____ ____\_\  \ \__\    \ \__\       \ \__\ \__\ \_______\ \_______\
    |\____    ____   ____\\_________\|__|     \|__|        \|__|\|__|\|_______|\|_______|
    \|___| \  \__|\  \___\|_________|                                                    
-         \ \__\ \ \__\                                                                  
-          \|__|  \|__|                                                                  
+          \ \__\ \ \__\                                                                  
+           \|__|  \|__|                                                                  
 ]]
 
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/unleaked"))()
+
+if not lib then
+    error("Failed to load library")
+end
 
 if game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/%23SMHUBARSENAL",true))()
@@ -38,5 +42,6 @@ elseif game.PlaceId == 16331600459 then
 elseif game.PlaceId == 13772394625 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gerstam/CB-Script/main/SMHUBBB.lua",true))()
 else
-    local notsupported = lib:InitNotifications():Notify("This game isn't supported for #SM HUB yet. If this game is popular please add in suggestions", 3, "information")
+    local notif = lib:InitNotifications()
+    notif:Notify("This game isn't supported for #SM HUB yet. If this game is popular please add in suggestions", 3, "information")
 end
